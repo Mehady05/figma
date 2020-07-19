@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;	
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins','Rubik', sans-serif;
+}
+
+ul,li{
+    list-style: none;
+}
+a {
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+button:focus {
+    outline: none;
+}
+
+.clr {
+    clear: both;
+}
+
+.bg_theme {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+button:focus {
+    outline: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+
+/* end off common css  */
+/* nav-bar area start here */
+.navbar.navbar-expand-lg {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+}
+
+
+.navbar-brand img{
+    width: 198.07px;
+    height: 59px;
+}
+.navbar-nav .nav-item .nav-link{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-right: 35px;
+    transition: all .3s linear;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+	color: #21B573 !important;
+}
+.btn_sign{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000 !important;
+    padding: 12px 28px;
+    border: 1px solid #21B573;
+    border-radius: 33px;
+    transition: all .3s linear;
+}
+.btn_sign:hover{
+   background-color: #21B573;
+   color: #F0FFF0 !important;
+}
+
+
+
+/* banner area start here */
+.banner_area {
+	background: #F0FFF0;
+	padding-bottom: 50px;
+}
+.all_banner_details{
+    display: flex;
+    flex-direction: row;
+}
+.banner_details .ready{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD511A;
+    padding-top: 242px;
+    text-transform: capitalize;
+}
+.banner_details h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+}
+.banner_details h2 span{
+    color: #21B573;
+}
+
+.banner_img img {
+	padding-top: 189px;
+	width: 570px;
+}
+/* about_area_start_here */
+.about_area {
+	padding-top: 30px;
+	background: rgb(229, 229, 229 .50);
+}
+.single_about{
+    transition: all .3s linear;
+    padding: 30px 10px;
+}
+.single_about img {
+	width: 66px;
+}
+.sing_details span{
+    display: block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+}
+.sing_details p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+.single_about:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+
+/* online area start here */
+.online_courses {
+	background: rgb(229, 229, 229 .50);
+	padding-bottom: 50px;
+}
+.online_heading h2 {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 54px;
+	color: #413960;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-transform: capitalize;
+}
+
+.online_sing_details{
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+.online_img img{
+    width: 331px;
+    box-sizing: border-box;
+}
+.sing_online_details p {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #413960;
+	padding-top: 10px;
+}
+.sing_online_details span{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+    display: block;
+}
+.sing_online_details a{}
+.online_date span{
+    display: inline-block;
+}
+.online_date span img{
+    width: 17px;
+}
+.online_date .start{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+.online_date .seat {
+	margin-left: 51px;
+}
+.on_btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* teastimonial start here */
+.testimonial {
+	padding-bottom: 100px;
+}
+.testi_img img{
+    width: 120px;
+}
+.testi_pera p{  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+/* last area start here  */
+.last_area {
+	background: #282531;
+	padding-top: 60px;
+}
+.millons {
+	padding-right: 60px;
+}
+.millons p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.course ul li{
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.course ul li.course_head{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.copy{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #CDCDCD;
+    padding-top: 50px;
+}
